@@ -1,0 +1,42 @@
+# Build files
+/Debug/
+/Release/
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+
+# IDE-specific files
+*.launch
+*.uvoptx
+*.uvprojx
+*.uvgui.*
+*.ioc.user_files*
+
+# STM32CubeIDE
+*.ide.log
+*.project
+*.cproject
+.settings/
+.vscode/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# Optional: exclude generated code if you want to regenerate from .ioc
+# Uncomment the next line only if you regenerate code from the .ioc
+# /Core/Inc/
+# /Core/Src/
+# /Drivers/
+
+# Optional: personal settings
+*.user
