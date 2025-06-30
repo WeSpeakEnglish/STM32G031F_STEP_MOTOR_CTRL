@@ -21,10 +21,10 @@ Control is done via a simple **Windows GUI application written in C# using Sharp
 
 | Pin         | Function               | Description                         |
 |-------------|------------------------|-----------------------------------|
-| PA0         | STEP (STP)             | Step pulse output to driver       |
-| PA1         | DIRECTION (DIR)        | Direction control output           |
-| PA2         | ENABLE (EN)            | Enable signal output               |
-| UART TX/RX  | UART Communication     | Connected to PC for control GUI   |
+| PA11        | STEP (STP)             | Step pulse output to driver       |
+| PA12        | DIRECTION (DIR)        | Direction control output           |
+| PA7         | ENABLE (EN)            | Enable signal output               |
+| PB7/PB3     | UART RX/TX Comm.       | Connected to PC via USB-UART   |
 
 Typical driver: A4988, DRV8825, TMC2209, or similar step/dir compatible driver.
 
