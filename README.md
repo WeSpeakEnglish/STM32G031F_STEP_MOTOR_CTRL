@@ -30,6 +30,5 @@ Typical driver: A4988, DRV8825, TMC2209, or similar step/dir compatible driver.
 
 ---
 
-## Project Structure
-
-
+Thank you for checking out the project!  
+Feel free to star ⭐ and share.
