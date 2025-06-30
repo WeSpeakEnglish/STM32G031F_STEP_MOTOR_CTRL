@@ -1,6 +1,6 @@
 # STM32G031F Stepper Motor Controller
 
-A minimalist stepper motor controller based on the STM32G031F6 MCU that generates standard control signals — **STEP (STP)**, **DIRECTION (DIR)**, and **ENABLE (EN)** — for an external stepper driver (e.g., A4988, DRV8825).  
+A minimalist stepper motor controller based on the STM32G031F6 MCU (like 1 dollar cost WeAct Studio STM32G031Fx) that generates standard control signals — **STEP (STP)**, **DIRECTION (DIR)**, and **ENABLE (EN)** — for an external stepper driver (e.g., A4988, DRV8825).  
 Control is done via a simple **Windows GUI application written in C# using SharpDevelop**, communicating over UART.
 
 ---
